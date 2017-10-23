@@ -24,22 +24,32 @@ class Task {
     /**
      * 編碼
      */
-    function encodeFile($config) {}
+    function encodeFile($config) {
+        // TODO 檔案加密
+    }
 
     /**
      * move
      */
-    function moveFile($config) {}
+    function moveFile($config) {
+        return copy($config['location'], $config['dir']);
+    }
 
     /**
      * remove
      */
-    function removeFile($config) {}
+    function removeFile($config) {
+        return delete($config['location'])
+    }
 
     /**
      * save to db
      */
-    function saveToDB($config) {}
+    function saveToDB($config) {
+        $db = new DB();
+        $file = file_get_contents($config['location']);
+        return $db->save('TABLE_NAME', $file);
+    }
 
 
 }
