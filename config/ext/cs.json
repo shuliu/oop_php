@@ -1,0 +1,11 @@
+{
+  "ext": "cs",
+  "location": "c:\\Projects",
+  "subDirectory": true,
+  "unit": "file",
+  "remove": false,
+  "handler": "zip",
+  "destination": "directory",
+  "dir": "c:\\MyArchieves",
+  "connectionString": ""
+}

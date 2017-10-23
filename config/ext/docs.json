@@ -1,0 +1,11 @@
+{
+  "ext": "DOCX",
+  "location": "c:\\Documents",
+  "subDirectory": true,
+  "unit": "file",
+  "remove": false,
+  "handler": "encode",
+  "destination": "db",
+  "dir": "",
+  "connectionString": "MyConnectionString"
+}

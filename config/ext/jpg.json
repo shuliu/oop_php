@@ -1,0 +1,11 @@
+{
+  "ext": "jpg",
+  "location": "c:\\Pictures",
+  "subDirectory": true,
+  "unit": "file",
+  "remove": false,
+  "handler": "",
+  "destination": "directory",
+  "dir": "c:\\MyArchieves",
+  "connectionString": ""
+}
